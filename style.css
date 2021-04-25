@@ -1,0 +1,12 @@
+body {
+    margin:   0px;
+    padding:  0px;
+    height: 100vh;
+
+    background-color: #383838;
+    /* background-color: #d8d8d8; */
+} /* end body tag */
+body.Rows {
+    display: grid;
+    grid-template-rows: 31px auto;
+} /* end body Rows class */

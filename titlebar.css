@@ -1,0 +1,61 @@
+/* ///////////////////////////////////////////////// */
+/* titlebar */
+
+header {
+    draggable: true;
+    height: 31px;
+
+    background-color: #282828;
+    /* background-color: white; */
+} /* end header tag */
+
+.Draggable {
+    -webkit-app-region: drag; }
+
+.Centered {
+    display: flex;
+	flex-direction : row;
+	align-items    : center; }
+
+.RightJustified {
+    display: flex;
+	flex-direction : row;
+	justify-content: flex-end; }
+
+/* only buttons on header */
+header button {
+    outline: none;
+    border: none;
+
+    font-family: 'Segoe MDL2 Assets';
+    font-size: 14px;
+    font-weight: bold;
+
+    background: none;
+    color: white;
+    /* color: black; */
+
+    padding-left:    20px;
+    padding-right:   20px;
+    padding-top:    8.5px;
+    padding-bottom: 8.5px;
+}
+
+.Undraggable {
+    -webkit-app-region: none; }
+
+
+header button:hover {
+    background-color: #0078D7;
+    color: white; }
+
+header button:active {
+    background-color: #005AA1;
+    color: white; }
+
+
+button#fechar:hover {
+    background: #FF0033; }
+
+button#fechar:active {
+    background: #BF0026; }
